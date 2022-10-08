@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid ;
+}
+header a{
+    text-decoration: none;
+    
+
+}
+.men{
+    height: 200px;
+    width: 1000px;
+    border: 2px solid;
+}
+div nav{
+    text-align: center;
+    font-size: 50px;
+
+   
+}
+
+
+
+div img{
+    width: 200px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+}
