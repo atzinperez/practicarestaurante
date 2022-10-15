@@ -6,22 +6,18 @@ header{
 }
 header a{
     text-decoration: none;
-    
-
-}
-.men{
-    height: 200px;
-    width: 1000px;
-    border: 2px solid;
+    color: pink;
+    border: 5px;
 }
 div nav{
     text-align: center;
     font-size: 50px;
-
-   
+    height: 70px;
+    width: 1200px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
 }
-
-
 
 div img{
     width: 200px;
@@ -30,4 +26,72 @@ div img{
     width: 200px;
     height: 200px;
     border: 2px solid;
+}
+
+h1{
+    
+}
+
+
+
+.gale{
+    border: 3px solid;
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(5, 300px);
+    gap: 20px;
+    justify-content: center;
+    justify-items:center; /*moverlos dentro de la celda*/
+    align-items: center;/*moverlo dentro de la celda*/
+}
+.gale img{
+    width: 80%; /*dar el ancho*/
+    height: 80%;/*dar alto*/
+}
+/*dar su espacio a cada imagen en el grid*/
+.g1{
+    grid-column: 2/3;
+    grid-row: 1/2 ;
+}
+.g2{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.g3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.g4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.g5{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.g6{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.g7{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.g8{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.g9{
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.g10{
+    grid-column: 4/5;
+    grid-row: 5/6;
+}
+
+
+
+footer ul{
+    list-style: none;
 }
